@@ -1,0 +1,40 @@
+footer {
+    padding: 70px 0 80px;
+}
+
+footer p, footer h4 {
+    margin: 0;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_content .footer_logo a:hover {
+    color: #333D51;
+}
+.footer_content .footer_logo .footer_logo_name {
+    font-size: 25px;
+    font-family: 'Proxima Nova Bold', sans-serif;
+
+}
+
+.footer_content .footer_logo .footer_logo_text {
+    font-size: 12px;
+}
+
+.footer_content .copyright {
+    font-size: 15px;
+}
+
+.footer_content .site_author .author_text {
+    font-size: 12px;
+    text-align: right;
+}
+
+.footer_content .site_author .author_name {
+    font-size: 25px;
+    font-family: 'Proxima Nova Bold', sans-serif;
+}

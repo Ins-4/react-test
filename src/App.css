@@ -1,0 +1,104 @@
+/* html {
+  min-height: 100%;
+} */
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: url('fonts/ProximaNova-Regular/ProximaNova-Regular.eot');
+  src: url('fonts/ProximaNova-Regular/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+  url('fonts/ProximaNova-Regular/ProximaNova-Regular.woff') format('woff'),
+  url('fonts/ProximaNova-Regular/ProximaNova-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url('fonts/ProximaNova-Bold/ProximaNova-Bold.eot');
+  src: url('fonts/ProximaNova-Bold/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+  url('fonts/ProximaNova-Bold/ProximaNova-Bold.woff') format('woff'),
+  url('fonts/ProximaNova-Bold/ProximaNova-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+}
+body {
+  font-family: 'Proxima Nova Regular', sans-serif;
+  font-size: 20px;
+  color: #333D51;
+  margin: 0;
+  background: #ffffff;
+}
+a {
+  text-decoration: none;
+  color: #333D51;
+}
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a, a:hover, a:active, a:focus, button, button:hover, button:active, button:focus, input, input:focus, input:active {
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.App {
+  position: relative;
+  background-color: #aaa;
+
+
+    
+    font-family: 'Proxima Nova Regular', sans-serif;
+    font-size: 20px;
+    color: #333D51;
+    margin: 0;
+    background: #ffffff;
+
+  
+}
+h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 25px;
+}
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+/* .news{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+background-color: #aaa;
+} */
+/* .newsItems{
+  display: inline-block;
+  width: 350px;
+  height: 290px;
+  border: 1px solid black;
+  cursor: pointer;
+} */
+/* .homePage{
+  padding-bottom: 50px;
+} */
+/* 
+.menu {
+  box-shadow: 0 0 1em black;
+  min-width: 50px;
+  background: white;
+  padding-bottom: 5px;
+  background: #86a8e7;
+  
+} */
+

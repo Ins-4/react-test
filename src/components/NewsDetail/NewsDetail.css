@@ -1,0 +1,29 @@
+.news_item_page_content {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+}
+
+.news_item_page_content .news_sidebar_content {
+    position: sticky;
+    top: 5%;
+}
+
+.news_item_page_content .news_sidebar {
+    width: 30%;
+}
+
+.news_item_page_content .news_description {
+    width: 68%;
+}
+
+.news_item_page_content .news_title span {
+    color: #004FEC;
+}
+
+.news_item_page_content .news_description .news_img {
+    width: 50%;
+    
+    margin-bottom: 25px;
+    background: #C4C4C4;
+}

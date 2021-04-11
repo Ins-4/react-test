@@ -1,0 +1,40 @@
+.contacts_content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contacts_content .contacts_description, .contacts_content .contacts_img {
+    width: 50%;
+}
+
+
+.contacts_description .contacts_phone {
+    color: #004FEC;
+    margin-bottom: 50px;
+}
+
+.contacts_description .contacts_name {
+    font-size: 25px;
+    padding-left: 25px;
+    border-left: 2px solid #004FEC;
+    margin-bottom: 13px;
+}
+
+.contacts_description .contacts_email {
+    margin-bottom: 60px;
+}
+
+.contacts_description .contacts_work {
+    color: #C4C4C4;
+    margin-bottom: 35px;
+}
+
+.contacts_description .contacts_skill .new_skill {
+    color: #004FEC;
+}
+
+.contacts_content .contacts_img {
+    background: url(../Img/Denus.jpg) center center/cover no-repeat;
+    height: 600px;
+}
